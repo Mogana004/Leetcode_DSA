@@ -36,9 +36,9 @@ class Main {
 ```
 
 ## input and output 
-5
-1 2 3 4 5
-3
+#### 5     
+#### 1 2 3 4 5
+#### 3
 
 
 output: 3 4 5 1 2
