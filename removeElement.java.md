@@ -13,3 +13,9 @@ class Solution {
     }
 }
 ```
+## Explanation :
+#### * The approach used here is similar to the two-pointer technique.
+#### * We initialize a pointer (pointer) to keep track of the position where we should place elements without the value "val".
+#### * We iterate through the array using a loop.
+#### * If we encounter an element that is not equal to val, we copy that element to the position indicated by the pointer and then increment the pointer.
+#### * Essentially, we keep track of the position where valid elements are to be placed, effectively removing the elements with the value "val".
