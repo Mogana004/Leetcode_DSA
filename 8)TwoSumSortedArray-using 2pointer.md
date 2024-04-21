@@ -34,4 +34,14 @@ class Solution {
 3) If the sum is greater than the target, decrement the right pointer to move towards smaller values.
 4) Repeat Until Solution Found or Pointers Meet: Continue this process until either a pair with the target sum is found, in which case return the indices, or until the pointers meet, indicating that no such pair exists.
 
+## return Statement definition 
+### 1) Return new int[]{pointer_1 + 1, pointer_2 + 1};:
+When the sum of the elements at pointer_1 and pointer_2 equals the target, the function returns a new array containing the indices of these elements.
+The indices are incremented by 1 because the problem states that the indices should be 1-based, whereas in Java arrays are 0-based. So, pointer_1 + 1 and pointer_2 + 1 are returned.
+### 2)  Incrementing pointer_1:
+If the sum of the elements at pointer_1 and pointer_2 is less than the target, it means that the sum is too small, and we need to increase the sum. Therefore, we increment pointer_1 by one, moving towards larger elements in the sorted array.
+### 3) Decrementing pointer_2:
+If the sum of the elements at pointer_1 and pointer_2 is greater than the target, it means that the sum is too large, and we need to decrease the sum. Therefore, we decrement pointer_2 by one, moving towards smaller elements in the sorted array.
+### 4) Return new int[0];:
+If the while loop completes without finding a pair whose sum equals the target, it means no such pair exists in the array. In this case, the function returns an empty array, new int[0], indicating that there are no solutions to the problem in the given array.
  
