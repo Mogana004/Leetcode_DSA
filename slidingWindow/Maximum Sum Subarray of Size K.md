@@ -24,3 +24,5 @@ class Solution {
 }
 ```
 ![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/12d9b55b-8e02-4ca5-9159-85d8fc347530)
+![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/aeb4d177-2138-435e-8e8e-debae88c4ff4)
+
