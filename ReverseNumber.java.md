@@ -1,4 +1,5 @@
-![Uploading image.png…]()
+![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/3c156a50-ec9c-4953-93de-fed7dfba0ea9)
+
 
 ```java
 
