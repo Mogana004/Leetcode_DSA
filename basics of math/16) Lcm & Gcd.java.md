@@ -22,4 +22,19 @@ class Solution {
     }
     }
 ```
+# -------------------------------------------------------------------------------------------------------
+# GCD Calculation:
+
+The gcd method calculates the GCD of two numbers using the Euclidean algorithm. This method repeatedly sets a to b and b to a % b until b becomes 0. The GCD is then the last non-zero value of a.
+## Formula 
+### ( b , a% b )
+#  -------------------------------------------------------------------------------------------------------
+
+# LCM Calculation:
+
+The LCM is calculated using the formula:
+Product of two numbers = ( LCM * GCD ) 
+### therefore , LCM = Product of numbers / GCD 
+#  -------------------------------------------------------------------------------------------------------
+
 ![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/f444b4fc-24df-4119-b4df-e46ea030707b)
