@@ -1,4 +1,4 @@
-# brute forse approach :
+# brute force approach :
 steps :
 1) sort the array
 2) print  array[1] for second smallest element
