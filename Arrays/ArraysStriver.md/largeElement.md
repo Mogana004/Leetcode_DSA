@@ -18,5 +18,9 @@ Use a for loop and compare it with other elements of the array
 If any element is greater than the max value, update max value with the element’s value
 Print the max variable.
 
+![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/44d467e7-19cf-4aa9-bda2-e6a08cc8d950)
+
+
 
 # GFG Problem 
+![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/6bccfc20-7703-4a96-8436-14ab6f2e0366)
