@@ -31,12 +31,6 @@ class HelloWorld {
 ```
 
 ### explanation
+![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/c1141c2c-8183-4ed7-8b9c-28c0d503e4eb)
 
-If Array = {1 , 2, 1 , 3, 2 ,4 }  , 
-the frequency of each elements will be 
-```
-1 2
-2 2
-3 1
-4 1 
-```
+
