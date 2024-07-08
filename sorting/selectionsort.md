@@ -59,3 +59,7 @@ Selection Sort is a simple sorting algorithm that works by repeatedly finding th
 
 
    ![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/15f94cfc-9025-43a7-a6f6-fedf32fb4d50)
+
+   ## GFG
+   ![image](https://github.com/Mogana004/Leetcode_DSA/assets/92911280/191d2454-f7c1-4cf1-92f5-050bce5299a5)
+
