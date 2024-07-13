@@ -38,3 +38,5 @@ class Main {
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/3eb78623-ce20-49c6-b6a8-79b14e4ac448)
+
