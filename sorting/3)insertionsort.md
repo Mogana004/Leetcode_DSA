@@ -34,3 +34,9 @@ public class Main {
 ```
 
 ![image](https://github.com/user-attachments/assets/17a880dd-daed-42ee-b998-b68ec1e3d8f2)
+
+
+### GFG 
+
+![image](https://github.com/user-attachments/assets/f45ce1b6-6103-402f-acd5-09f9faab35e2)
+
