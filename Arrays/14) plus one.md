@@ -22,12 +22,18 @@ class Solution {
 ```
 
 ## explanation 
-If Input = [1, 2, 3]
-i = 2
+If Input = [1, 2, 3] 
+
+i = 2 
+
 digits[2] = 3
+
+
 Since digits[2] is less than 9, increment it by 1 and return the array.
 
+
 digits[2]++;  // digits = {1, 2, 4}
+
 return digits;  // Return {1, 2, 4}
 
 
