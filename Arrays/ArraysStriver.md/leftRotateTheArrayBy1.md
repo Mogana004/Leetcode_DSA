@@ -1,6 +1,6 @@
 ## Left rotate the array by 1 place 
-#### optimal approach 
-
+### optimal approach 
+```java
 class HelloWorld {
     public static void main(String[] args) {
         int[] array = { 1 , 2 ,3 , 4 , 5 };
@@ -15,6 +15,10 @@ class HelloWorld {
             System.out.print(array[i] +  " ") ;
         }
     }
-}![image](https://github.com/user-attachments/assets/fdecc503-e59e-4c47-9e9f-d29c5b0271b5)
+
+}
+```
+
+![image](https://github.com/user-attachments/assets/fdecc503-e59e-4c47-9e9f-d29c5b0271b5)
 ![image](https://github.com/user-attachments/assets/b044b1f0-4981-421a-9d6a-c2a78f361b9f) 
 
