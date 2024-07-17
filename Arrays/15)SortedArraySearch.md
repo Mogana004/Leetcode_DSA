@@ -13,6 +13,9 @@ class Solution{
      }
      return -1 ;
     }
-}```
+}
+```
+
+
 ![image](https://github.com/user-attachments/assets/c11082a2-b11b-4f8d-b322-3f6dc4b122ab)
 https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=who-will-win
