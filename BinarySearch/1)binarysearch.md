@@ -44,3 +44,8 @@ class Solution {
 }
 ```
 ![image](https://github.com/user-attachments/assets/17239e8e-9703-4b01-8601-bb5c1a6f4478)
+
+
+## similar leetcode problem - first bad version 
+![image](https://github.com/user-attachments/assets/495bc7f6-3bbe-4826-ad0f-1aaf92783f8d)
+
