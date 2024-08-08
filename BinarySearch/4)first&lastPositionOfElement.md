@@ -2,7 +2,7 @@
 
 ### Example 1:
 ### Input: N = 7, target=13, array[] = {3,4,13,13,13,20,40}
-### Output: 4
+### Output: [2 , 4]
 ### Explanation: As the target value is 13 , it appears for the first time at index number 2.
 
 ## Naive approach 
