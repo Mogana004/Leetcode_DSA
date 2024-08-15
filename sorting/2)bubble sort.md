@@ -1,26 +1,38 @@
 ```java
-import java.util.*;
+import java.util.Scanner;
 
-class Solution {
-    static void bubble_sort(int[] array, int n) {
-        for (int j = n - 1; j >= 1; j--) {
-            for (int i = 0; i < j; i++) {
-                if (array[i] > array[i + 1]) {
-                    int temp = array[i];
-                    array[i] = array[i + 1];
-                    array[i + 1] = temp;
+class BubbleSort {
+    static void bubbleSort(int arr[]) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // Swap arr[j] and arr[j + 1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
             }
         }
     }
 
     public static void main(String[] args) {
-        int[] array = {1, 0, 12, 8, 7, 9, 10, 5, 6, 3, 4};
-        int n = array.length;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of elements: ");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
 
-        bubble_sort(array, n);
-        
-        System.out.println(Arrays.toString(array));
+        System.out.println("Enter the elements:");
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        bubbleSort(arr);
+
+        System.out.println("Sorted array:");
+        for (int x : arr) {
+            System.out.print(x + " ");
+        }
     }
 }
 ```
