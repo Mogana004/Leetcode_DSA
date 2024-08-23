@@ -1,4 +1,5 @@
 ### 1) find Subarray with sum k 
+```java
 import java.util.*  ;
 class HelloWorld {
     public static void main(String[] args) {
@@ -17,3 +18,4 @@ class HelloWorld {
         
     }
 }
+```
