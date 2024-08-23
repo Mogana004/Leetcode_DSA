@@ -53,7 +53,7 @@ public class Main {
 }
 ```
 
-### 3) Reverse string (https://www.geeksforgeeks.org/problems/reverse-a-string/1)[GFG]
+### 3) Reverse string [GFG](https://www.geeksforgeeks.org/problems/reverse-a-string/1)
 ```java
 import java.util.Scanner;
 
