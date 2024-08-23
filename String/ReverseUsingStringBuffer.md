@@ -1,3 +1,4 @@
+# 1) using StringBuffer to reverse a string 
 ```java
 import java.util.* ;
 class HelloWorld {
