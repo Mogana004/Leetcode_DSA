@@ -23,7 +23,7 @@ Splitting the String:
 2) input.split(" "); splits the string into an array of words based on spaces.
 Accessing the Last Word:
 
-3) words[words.length - 1]; gets the last word in the array.
+3) split[len - 1 ]; gets the last word in the array.
 
 
 4) Finding the Length:
