@@ -1,4 +1,9 @@
 ## 6) Remove Vowels
+
+Input: S = "welcome to geeksforgeeks"
+
+Output: wlcm t gksfrgks
+
 ```java
 
 class Solution {
