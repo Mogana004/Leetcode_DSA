@@ -42,7 +42,7 @@ class Solution {
  
  num = 1
 
-Second Iteration (ch = '2'):
+3) Second Iteration (ch = '2'):
 
  num = num * 10 + (ch - '0')
  
