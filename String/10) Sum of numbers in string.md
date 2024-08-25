@@ -34,16 +34,22 @@ class Solution {
 1) subtracting '0' from any digit character gives you the actual numeric value of that character.
 2) First Iteration (ch = '1'):
 
- num = num * 10 + (ch - '0')
+ num = num * 10 + (ch - '0') 
+ 
  num = 0 * 10 + ('1' - '0')
+ 
  num = 0 + 1
+ 
  num = 1
 
 Second Iteration (ch = '2'):
 
  num = num * 10 + (ch - '0')
+ 
  num = 1 * 10 + ('2' - '0')
+ 
  num = 10 + 2
+ 
  num = 12
 
 ### example 
