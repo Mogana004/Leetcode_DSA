@@ -1,30 +1,30 @@
 
-## Remove dupe and return coutn of unique elements  
+## Remove dupe in an sorted array in place   
 ```java
-import java.util.*;
-
-class Solution {
-  public static void main(String[] args) {
-      Scanner sc = new Scanner(System.in) ;
-      int n = sc.nextInt() ;
-    int arr[] = new int[n] ; 
-    for ( int i = 0 ; i < n ; i++){
-        arr[i] = sc.nextInt() ;
-    }
-    
-    int j = 0 ;
-    for ( int i = 1 ; i <= n-1 ; i++){
-        if ( arr[j] != arr[i] ){
-            arr[j+1 ] = arr[i] ;
-            j++ ;
+class HelloWorld {
+    public static void main(String[] args) {
+        int arr[] = {1, 1, 2, 2, 3, 4, 4, 5};
+        int length = removeDuplicates(arr);
+        
+        // Print the array with unique elements
+        for (int i = 0; i < length; i++) {
+            System.out.print(arr[i] + " ");  // Output: 1 2 3 4 5 
         }
     }
-    System.out.println(j+1) ;
-    
-    for ( int  i= 0 ; i < n ; i++) {
-        System.out.print(arr[i] + " ") ;
+
+    public static int removeDuplicates(int[] arr) {
+        if (arr.length == 0) return 0;
+
+        int i = 0;  // pointer for the last unique element
+        
+        for (int j = 1; j < arr.length; j++) {
+            if (arr[i] != arr[j]) {
+                i++;
+                arr[i] = arr[j];
+            }
+        }
+        return i + 1;  // The new length of the array with unique elements
     }
-  }
 }
+
 ```
-![image](https://github.com/user-attachments/assets/fec7ee10-4bde-4d9f-8902-3bac7f863759)
