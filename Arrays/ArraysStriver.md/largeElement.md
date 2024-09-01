@@ -1,4 +1,5 @@
-# Brute force approach  - Sorting
+## 1) largeElement
+  ###  Brute force approach  - Sorting
 #### Intuition:
 We can sort the array in ascending order, hence the largest element will be at the last index of the array. 
 
