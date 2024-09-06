@@ -18,7 +18,7 @@ class HelloWorld {
     }
 }
 ```
-![image](https://github.com/user-attachments/assets/c020fc4e-467b-4eb6-b436-50e5f74cf7d4) 
+
 ## output 
 ![image](https://github.com/user-attachments/assets/c20a2c86-1b2f-46c8-94c5-f7eeba4fa259)
 
