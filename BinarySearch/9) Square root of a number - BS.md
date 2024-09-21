@@ -1,4 +1,5 @@
-### to fing the Suare root of a number - using Binary search 
+### To fing the Suare root of a number - using Binary search 
+
 ![image](https://github.com/user-attachments/assets/4cfa206c-3e4b-472c-aadc-bc185466dcef)
 
 ```java
