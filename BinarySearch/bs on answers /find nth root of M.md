@@ -1,3 +1,6 @@
+### Finding the Nth Root of M using BS 
+![image](https://github.com/user-attachments/assets/8dd6668f-eaa9-47c9-8a25-8d07bb2f52f3)
+
 ```java
 import java.util.*;
 
